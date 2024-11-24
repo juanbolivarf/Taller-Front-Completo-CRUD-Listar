@@ -22,6 +22,10 @@ export const Ruteo = () => {
       <Route path="/acer" element={<Acerca />} />
 
       <Route path="*" element={<NoEncontrado />} />
+
+      <Route path="/" element={<Inicio />} />
+      <Route path="/listar-peliculas" element={<PeliListar />} />
+
     </Routes>
   );
 };

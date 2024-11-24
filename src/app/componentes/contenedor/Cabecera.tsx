@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import miLogo from "../../../assets/img/logoReact.png";
+import miLogo from "../../../assets/img/RetroCine.png";
 
 export const Cabecera = () => {
   return (
@@ -30,11 +30,7 @@ export const Cabecera = () => {
                   Inicio
                 </NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="*">
-                  Sedes
-                </NavLink>
-              </li>
+            
 
               <li className="nav-item dropdown">
                 <a

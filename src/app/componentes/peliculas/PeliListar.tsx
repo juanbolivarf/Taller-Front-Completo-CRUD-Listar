@@ -38,6 +38,10 @@ export const PeliListar = () => {
                 <td>{obtenerNombre(miPeli.codGeneroPelicula)}</td>
                 <td>{miPeli.protagonistaPelicula}</td>
                 <td>{miPeli.imagenPelicula}</td>
+                <td>
+                  <img src={miPeli.imagenPeliculaBase64} alt = "No hay imagen de la película" className="imagenListado" />
+                  <br />
+                  {miPeli.imagenPelicula}</td>
               </tr>   
               ))}
 
